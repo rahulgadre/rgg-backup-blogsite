@@ -31,7 +31,7 @@ external:                    # see http://fontawesome.com/icons
    - {title: Github, icon: github, url: "https://github.com/rahulgadre"}
    - {title: Twitter, icon: twitter, url: "https://twitter.com/rggadre"}
    - {title: Mail, icon: envelope, url: "mailto:rahul.gadre@outlook.com"}
-#   - {title: Dev, icon: dev, url: "https://dev.to/rahulgadre"}
+   - {title: Website, icon: globe, url: "https://rahulgadre.com/"}
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
