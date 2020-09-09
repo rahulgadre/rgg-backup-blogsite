@@ -33,6 +33,8 @@ external:                    # see http://fontawesome.com/icons
    - {title: Mail, icon: envelope, url: "mailto:rahul.gadre@outlook.com"}
    - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/rahulgadre/"}
    - {title: Website, icon: globe, url: "https://rahulgadre.com/"}
+   - {title: Dev, icon: dev, url: "https://dev.to/rahulgadre"}
+   
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
