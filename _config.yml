@@ -1,6 +1,6 @@
 title: "Rahul's blog"
 author: "Rahul Gadre"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/niklasbuschmann\">@niklasbuschmann</a></b>"
+#description: "Made with <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/rahulgadre\">@rahulgadre</a></b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -28,6 +28,7 @@ navigation:
 external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
    - {title: Github, icon: github, url: "https://github.com/rahulgadre"}
+   - {title: Twitter, icon: twitter, url: "https://twitter.com/rggadre"}
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
