@@ -12,7 +12,7 @@ date_format: "%B %d, %Y"
 sidebar: true               # show a sidebar instead of the usual header
 show_excerpts: false         # show article excerpts on the home page
 show_related: true           # show the previous and next links after every post
-show_description: false       # show the site description in the sidebar
+show_description: true       # show the site description in the sidebar
 show_title: false            # always keep the site title visible
 
 # Styling
@@ -30,6 +30,8 @@ external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
    - {title: Github, icon: github, url: "https://github.com/rahulgadre"}
    - {title: Twitter, icon: twitter, url: "https://twitter.com/rggadre"}
+   - {title: Mail, icon: envelope, url: "mailto:rahul.gadre@outlook.com"}
+   - {title: Dev, icon: dev, url: "https://dev.to/rahulgadre"}
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
