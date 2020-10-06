@@ -7,8 +7,6 @@ tags: [AWS]
 comments: true
 ---
 
-### Configuring VPC in AWS:
-
 VPC stands for virtual private cloud and it allows users to create a virtual datacenter in the cloud. 
 
 The following steps describe how to configure VPC in AWS:
