@@ -56,6 +56,8 @@ users:
 
 Note:  Ensure to enter the entire public key generated in step 2 in place of PublicKeypair in the script above , the public key starts with ssh-rsa. Also, be sure to set the right username (ec2-user/centos) in the script above depending upon the OS of your private instance.
 
+The aforementioned userdata script was added in the blog by referring to this [article](https://aws.amazon.com/premiumsupport/knowledge-center/user-data-replace-key-pair-ec2/)
+
 Once the above userdata script has been added, start the private instance and then access the private instance from the bastion host using the following command:
 
 ```
