@@ -12,7 +12,7 @@ Often times we have instances in private subnets which we want to access using S
 
 Once we have access to the bastion host, the private instances can be accessed using any of the 2 methods described below:
 
-1. Userdata - if the keys for bastion host and private instances are different.
+--> Userdata - if the keys for bastion host and private instances are different.
 
 If the private instances were launched using a key different than the one used to deploy the bastion host, then a new SSH key or the bastion host key can be added in the private instances using Userdata. Please note that this method requires stopping and starting the private instance. Therefore, please put the private instance on standby if it's part of an autoscaling group and ensure that the on shutdown action isn't set to terminate. 
 
@@ -68,7 +68,7 @@ ssh -i mykp.pem ec2-user@private_IP
 
 Note: Be sure that you have the key used in step 2 on the bastion host to have successful SSH connection with a private instance.
 
-2. Using a private key - if the key for the bastion host and private instances is the same.
+--> Using a private key - if the key for the bastion host and private instances is the same.
 
 If the bastion host and the private instances were launched using the same key, then a private key can be copied from your local computer onto the bastion host. Here are the steps to copy the private key from your local computer onto the bastion host:
 
