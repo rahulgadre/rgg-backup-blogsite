@@ -1,5 +1,5 @@
 ---
-title: Bastion host & Private instances  
+title: Bastion host & private instances  
 date: 2021-06-12 18:58:47 +07:00
 # modified: 2020-07-11 16:49:47 +07:00
 tags: [aws]
