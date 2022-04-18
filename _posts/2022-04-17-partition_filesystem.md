@@ -17,7 +17,7 @@ If the output of the above command is */dev/xvdf: data*, then there is no file s
 
 Refer to the following link for the steps to create a filesystem on a raw volume (without partition).
 
-* Make an Amazon EBS volume available for use on Linux - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+* [Make an Amazon EBS volume available for use on Linux](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
 #### The steps described below creates a partition on the newly added volume and configures an ext4 file system.
 
