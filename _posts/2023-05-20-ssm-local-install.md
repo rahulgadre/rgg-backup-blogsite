@@ -1,11 +1,9 @@
 ---
-title: Install an SSM agent locally on an EC2 instance
+title: Installing an SSM agent locally on an EC2 instance
 date: 2023-05-20 20:15:27 +07:00
 tags: [aws]
 description: This blog contains steps to install an SSM agent locally on an EC2 instance
 ---
-
-### Local installation of an SSM agent on an Amazon EC2 instance
 
 Often times, an EC2 instance is passing both the health checks, but not accessible via SSH. One way to diagnose OS level issues is by detaching the root volume of the impaired instance and attaching it to another instance within the same availibility zone. Another way is install an SSM agent on the impaired instance (if it's not already installed) and inspect the SSH or OS level issues directly at the OS level of the impaired instance.
 
