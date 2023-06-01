@@ -14,19 +14,19 @@ As an experiment, a non Amazon Linux EC2 instance is launched in a subnet. A new
 #### Observation #1:
 
 Ping succeeds as the instance only has 1 ENI attached.
-
+```
 sh-4.2$ ping 172.31.15.216
 PING 172.31.15.216 (172.31.15.216) 56(84) bytes of data.
 64 bytes from 172.31.15.216: icmp_seq=1 ttl=64 time=1.63 ms
 64 bytes from 172.31.15.216: icmp_seq=2 ttl=64 time=1.24 ms
-
+```
 Now, attach the newly created ENI to the instance and test ping connectivity to the secondary IP address (private IP address of the new ENI) from the other EC2 instance to the non Amazon Linux EC2 instance.
 
 #### Observation #2:
-
+```
 sh-4.2$ ping 172.31.0.218
 PING 172.31.0.218 (172.31.0.218) 56(84) bytes of data.
-
+```
 As shown in the above output, ping connectivity to the secondary IP address failed due to asymmetric routing issues. This issue occurs when 2 ENIs are in the same subnet referring to the same route table. In Asymmetric Routing, a packet traverses from a source to a destination in one path and takes a different path when it returns to the source. To avoid this asymmetric routing issue, some additional configuration is required at the OS level.
 
 First, log into the non Amazon Linux instance via its public ip address and note down the eth0 and eth1 IP configuration. This will come handy in the following steps. The command route -n will show the default gateway IP address which will be the same for both the ENIs in this case.
