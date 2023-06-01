@@ -1,6 +1,6 @@
 ---
 title: Solving asymmetric routing issues
-date: 2023-06-01 14:15:07 +07:00
+date: 2023-06-01 14:15:00 +07:00
 tags: [aws]
 description: A blog about solving asymmetric routing issues
 ---
