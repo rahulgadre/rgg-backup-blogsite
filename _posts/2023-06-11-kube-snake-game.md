@@ -1,6 +1,6 @@
 ---
 title: Deploying a snake game using Kubernetes
-date: 2023-06-11 18:45:07 +07:00
+date: 2023-06-11 17:45:07 +07:00
 tags: [aws]
 description: A blog about deploying a snake game using Kubernetes
 ---
