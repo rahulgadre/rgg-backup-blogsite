@@ -1,6 +1,6 @@
 ---
 title: Retrieving the billing code for an IMDSv2 enabled RHEL EC2 instance 
-date: 2024-04-08 05:41:47 +07:00
+date: 2024-04-08 11:41:47 +07:00
 # modified: 2020-07-11 16:49:47 +07:00
 tags: [aws]
 description: Steps to retrieve the billing code for an IMDSv2 enabled RHEL EC2 instance 
