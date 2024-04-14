@@ -1,6 +1,6 @@
 title: "Rahul's blog"
 author: "Rahul Gadre"
-description: A cloud engineer who is passionate about designing, deploying, and solving infrastructure solutions and issues using Cloud (AWS, Azure), Ansible, Docker, VMware, and Terraform.
+description: A cloud engineer who is passionate about learning new technologies and solving infrastructure issues using Cloud and DevOps technologies.
 #description: "Made with <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/rahulgadre\">@rahulgadre</a></b>"
 permalink: /:title/
 lang: "en"
@@ -33,7 +33,7 @@ external:                    # see http://fontawesome.com/icons
    - {title: Mail, icon: envelope, url: "mailto:rahul.gadre@outlook.com"}
    - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/rahulgadre/"}
    - {title: Website, icon: globe, url: "https://rahulgadre.com/"}
-   - {title: Dev, icon: dev, url: "https://dev.to/rahulgadre"}
+ #  - {title: Dev, icon: dev, url: "https://dev.to/rahulgadre"}
    
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
