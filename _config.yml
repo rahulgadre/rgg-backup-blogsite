@@ -1,6 +1,6 @@
 title: "Rahul's blog"
 author: "Rahul Gadre"
-description: A cloud engineer who is passionate about learning new technologies and solving infrastructure issues using Cloud and DevOps technologies.
+description: A cloud engineer who is passionate about learning new technologies and solving infrastructure issues using Cloud and DevOps technologies. Want to get in touch? Send me an email at rahul (at) rahulgadre.com.
 #description: "Made with <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/rahulgadre\">@rahulgadre</a></b>"
 permalink: /:title/
 lang: "en"
@@ -30,7 +30,7 @@ external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
    - {title: Github, icon: github, url: "https://github.com/rahulgadre"}
    - {title: Twitter, icon: twitter, url: "https://twitter.com/rggadre"}
-   - {title: Mail, icon: envelope, url: "mailto:rahul.gadre@outlook.com"}
+   - {title: Mail, icon: envelope, url: "mailto:rahul@rahulgadre.com"}
    - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/rahulgadre/"}
    - {title: Website, icon: globe, url: "https://rahulgadre.com/"}
  #  - {title: Dev, icon: dev, url: "https://dev.to/rahulgadre"}
